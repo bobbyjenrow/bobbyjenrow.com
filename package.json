@@ -1,0 +1,33 @@
+{
+  "name": "react2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "emotion": "^9.2.12",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss": "^7.0.5",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-router-dom": "^4.3.1",
+    "react-transition-group": "^2.5.0",
+    "webpack": "^4.25.1",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "babel-plugin-emotion": "^9.2.11",
+    "react-emotion": "^9.2.12"
+  }
+}
